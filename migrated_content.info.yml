@@ -1,0 +1,7 @@
+name: migrated_content
+description: migrates static contents to a content type
+type: module
+core_version_requirement: ^9|^10
+packages: migration_custom_modules
+dependencies:
+  - drupal:migrate
